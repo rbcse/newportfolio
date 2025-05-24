@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 const Home = () => {
   return (
@@ -12,7 +11,7 @@ const Home = () => {
         <p className="text-2xl md:text-3xl font-semibold text-gray-200 animate-fade-in-up delay-200">
           Software Developer | GenAI Enthusiast
         </p>
-        <div className="flex justify-center space-x-6 pt-6 animate-fade-in-up delay-400">
+        <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4 md:space-y-0 pt-6 animate-fade-in-up delay-400">
           <a
             href="https://www.linkedin.com/in/rahul-birawat-jain-5620ba250/"
             target="_blank"
@@ -22,14 +21,22 @@ const Home = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/rbcse" // Assuming this is your GitHub, replace if different
+            href="https://github.com/rbcse"
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-400 hover:text-purple-300 transition-colors duration-300 text-lg md:text-xl"
           >
             GitHub
           </a>
-          {/* Add more profile links here if available, e.g., LeetCode, GeeksforGeeks */}
+          {/* See Resume Button */}
+          <a
+            href="https://drive.google.com/file/d/1NOZ6KhjXD3_sbZfwL7fhClbtDENoe6BY/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-lg md:text-xl"
+          >
+            See Resume
+          </a>
         </div>
       </div>
     </section>

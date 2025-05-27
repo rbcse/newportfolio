@@ -9,7 +9,7 @@ const Education = () => {
         {/* B.Tech Education */}
         <div className="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700 mb-10">
           <h3 className="text-2xl font-semibold text-gray-100 mb-2">
-            Sardar Vallabhai National Institute of Technology, Surat
+            Sardar Vallabhbhai National Institute of Technology, Surat
           </h3>
           <p className="text-lg text-gray-300 mb-1">
             B.Tech in Computer Science & Engineering
